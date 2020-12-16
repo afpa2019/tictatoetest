@@ -25,8 +25,8 @@ L'entrée qui sera prise pour spécifier où placer une marque 'x' ou 'o' sera a
    
  private char markDeJeuCourant
  
-     Cette variable contiendra un «x» ou un «o», représentant le jeu du joueur à un moment donné. 
-    Les méthodes de la classe TicTacToe l'utiliseront lors du marquage du tableau pour déterminer quel type de marque sera placé.
+   Cette variable contiendra un «x» ou un «o», représentant le jeu du joueur à un moment donné. 
+  Les méthodes de la classe TicTacToe l'utiliseront lors du marquage du tableau pour déterminer quel type de marque sera placé.
     
    Ce qui suit est une configuration générale du programme. Vous trouverez ci-dessous tous les en-têtes de méthodes appartenant à la classe TacTocToe. Ces méthodes agiront sur les variables membres de la classe TacTocToe pour rendre le jeu mutable. Chacune a une brève description de ce que la méthode fera. Ces comportements sont nécessaires pour jouer à un jeu complet de Tic-Tac-Toe. 
 
