@@ -22,7 +22,8 @@ L'entrée qui sera prise pour spécifier où placer une marque 'x' ou 'o' sera a
      placer dans la classe TicTacToe.java
     private char [][] tabJeu
    Cette variable est un tableau 2D de caractères qui sera représentatif du tableau trois par trois   d'un jeu de Tic-Tac-Toe. Il conservera l'état du jeu à l'intérieur de l'objet TicTacToe à tout moment
-       private char markDeJeuCourant
+   
+  private char markDeJeuCourant
      Cette variable contiendra un «x» ou un «o», représentant le jeu du joueur à un moment donné. 
     Les méthodes de la classe TicTacToe l'utiliseront lors du marquage du tableau pour déterminer quel type de marque sera placé.
     
@@ -84,7 +85,7 @@ if( verifierLigneCol (tabJeu [0] [0], tabJeu [1] [1], tabJeu [2] [2]) == true) |
 
 2ème étape
 
-      Maintenant, nous devons nous assurer que si un joueur obtient trois lettres identiques et consécutives, il gagne,  verifierLigneCol() sera une fonction qui comparera les trois lettres les unes aux autres, et si elles correspondent, alors retournera true.
+   Maintenant, nous devons nous assurer que si un joueur obtient trois lettres identiques et consécutives, il gagne,  verifierLigneCol() sera une fonction qui comparera les trois lettres les unes aux autres, et si elles correspondent, alors retournera true.
 Pour la méthode verifierLigneCol(): Cette méthode est utilisée par les autres méthodes pour envoyer trois valeurs. Nous vérifions d’abord que la première valeur n’est pas une valeur vide telle que «-». Ensuite, nous comparons la première valeur à la deuxième, et la deuxième à la troisième, et si et seulement si les trois valeurs sont identiques ET ce ne sont pas des valeurs égales à '-', alors cette méthode retournera true.
 
 Changement entre les joueurs (x et O)
