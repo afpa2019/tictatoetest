@@ -24,6 +24,7 @@ L'entrée qui sera prise pour spécifier où placer une marque 'x' ou 'o' sera a
    Cette variable est un tableau 2D de caractères qui sera représentatif du tableau trois par trois d'un jeu de Tic-Tac-Toe. Il conservera l'état du jeu à l'intérieur de l'objet TicTacToe à tout moment.
    
  private char markDeJeuCourant
+ 
      Cette variable contiendra un «x» ou un «o», représentant le jeu du joueur à un moment donné. 
     Les méthodes de la classe TicTacToe l'utiliseront lors du marquage du tableau pour déterminer quel type de marque sera placé.
     
