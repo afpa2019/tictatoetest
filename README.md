@@ -29,6 +29,7 @@ C'est le constructeur. Il sera chargé de s'assurer que le tableau est correctem
 public void initialiseTableau() Cette méthode initialisera le tableau de sorte que tous les emplacements soient vides '-'.
 
 public void afficherTableau() affiche le tableau sur la sortie standard comme suit:
+
 | - | - | - |
 | - | - | - |
 | - | - | - |
